@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(230, 224, 224);
+  }
+  
+  h1 {
+    color: rgb(45, 11, 168);
+  }
+  
+  h2{
+    color: rgb(211, 7, 7);
+    font-size: 14;
+  }
+
+  h3{
+    color: rgb(30, 15, 238);
+    font-size: 16;
+  }
