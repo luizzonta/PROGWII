@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
+    <link rel="manifest" href="./public/manifest.json">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Reajuste Salarial</h1>
+
+    <div class="formulario">
+
+        <h2><label for="nome">Nome do Funcionário:</label>
+            <input type="text" id="nome" name="nome">
+        </h2>
+        <h2><label for="salario"></label>Salário atual do funcionário:</label>
+            <input type="number" step="any" id="salario" name="salario">
+        </h2>
+        <button id="btnCalcula" name="btnCalcula" type="submit" onclick="calculaSalario()">Calcular novo salário</button>
+
+    </div>
+    
+    <div class="resultados">
+        <h3><p id="salarioAnterior"></p></h3>
+        <h3><p id="percentual"></p></h3>
+        <h3><p id="valorAumento"></p></h3>
+        <h3><p id="novoSalario"></p></h3>
+    </div>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
